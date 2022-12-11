@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.smartcity05.ui.bottomFragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.smartcity05.ui.bottomFragments.AllServFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_allserv" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.smartcity05.ui.bottomFragments.SmartPartyFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_smartparty" />
+
+    <fragment
+        android:id="@+id/navigation_newslist"
+        android:name="com.example.smartcity05.ui.bottomFragments.NewsListFragment"
+        android:label="@string/NewsList"
+        tools:layout="@layout/fragment_newslist" />
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.smartcity05.ui.bottomFragments.UserFragment"
+        android:label="@string/User"
+        tools:layout="@layout/fragment_user" />
+
+
+</navigation>

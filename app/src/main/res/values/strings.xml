@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmartCity05</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">全部服务</string>
+    <string name="title_notifications">智慧团建</string>
+    <string name="NewsList">新闻</string>
+    <string name="User">用户中心</string>
+</resources>
