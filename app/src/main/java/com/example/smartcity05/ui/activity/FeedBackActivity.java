@@ -16,6 +16,7 @@ import com.example.smartcity05.net.NetWorkApi;
 import com.example.smartcity05.net.RetroApi;
 import com.example.smartcity05.util.BaseActivity;
 import com.example.smartcity05.util.ViewUtil;
+//import com.example.smcity.databinding.ActivityFeedBackBinding;
 
 import org.json.JSONException;
 import org.json.JSONObject;

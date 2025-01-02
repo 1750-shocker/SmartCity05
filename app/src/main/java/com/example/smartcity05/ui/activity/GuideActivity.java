@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import com.example.smartcity05.databinding.ActivityGuideBinding;
 import com.example.smartcity05.ui.adapter.GuideAdapter;
+//import com.example.smcity.databinding.ActivityGuideBinding;
 
 public class GuideActivity extends AppCompatActivity {
     private ActivityGuideBinding binding;
